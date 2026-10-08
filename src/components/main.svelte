@@ -26,11 +26,11 @@
             position: absolute;
             top:3rem;
             left:3rem;
-            height:clamp(250px,50vh,700px);
-            width:500px;
+            height: 40%;
+            aspect-ratio: 1.169;
             z-index: 2;
             row-gap: var(--spacing--20);
-            clip-path:polygon(0% 15%, 15% 15%, 27% 0%, 40% 15%, 55% 0%, 70% 15%, 82.5% 0%, 84.9% 15%, 98.6% 15%, 72.4% 50%, 86.6% 69.8%, 56.8% 70.3%, 29.4% 100%, 13.9% 87%, 0% 86.9%);
+            clip-path:shape(from 0% 16.46%,line to 14.47% 16.46%,line to 28.75% 0%,line to 42.93% 16.46%,line to 57.2% 0%,line to 71.48% 16.46%,line to 85.85% 0%,line to 85.85% 16.46%,line to 100% 16.46%,line to 71.67% 49.87%,line to 85.56% 66.63%,line to 57.3% 66.63%,line to 28.55% 100%,line to 14.47% 82.85%,line to 0% 82.85%,line to 0% 16.46%,close);
             background-color: var(--color--white);
             .header-text{
                 margin-top:2.5rem;
